@@ -1,0 +1,32 @@
+.header {
+    box-shadow: var(--shadow);
+    background: linear-gradient(to left, #232526, #414345);
+}
+
+header > h1 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 25px;
+    color: #F5F5F5;
+}
+
+header > h2 {
+    display: none;
+}
+
+@media(max-width: 376px) {
+    header > h1 {
+        display: none;
+    }
+    header > h2 {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        font-size: 25px;
+        color: #F5F5F5;
+    }
+}
+

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Gustavo",
+      "vaga": "Desenvolvedor",
+      "data_nasc": "05/05/1999",
+      "email": "gustavo_vahl@yahoo.com.br",
+      "id": 2
+    },
+    {
+      "name": "Bruno Ramos Vahl",
+      "vaga": "Bruno Ramos Vahl",
+      "data_nasc": "0606060606",
+      "email": "bruno.vahl@outlook.com",
+      "id": 3
+    },
+    {
+      "name": "Gustavo",
+      "vaga": "Bruno Ramos Vahl",
+      "data_nasc": "06/08/1993",
+      "email": "olmar@gmail.com",
+      "id": 4
+    }
+  ]
+}

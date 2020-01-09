@@ -1,0 +1,30 @@
+.update {
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    display: inline-block;
+}
+
+.ml-2 {
+    height: 38px;
+}
+
+.titulo {
+    display: none;
+}
+
+.titulo2 {
+    display: block;
+}
+
+.table {
+    width: 1200px;
+    overflow-x: auto;
+}
+
+tr {
+    border-bottom: solid 3px #444;
+}
+
+
+

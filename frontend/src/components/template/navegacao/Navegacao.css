@@ -1,0 +1,64 @@
+aside.menu-area {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 
+        2px 0 10px 0 rgba(0, 0, 0, 0.5)
+        2px 0 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+a {
+    display: block;
+    color: #FFF;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.inicio:hover {
+    background: linear-gradient(to right, #000000, #434343);
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cadastro:hover {
+    background: linear-gradient(to right, #000000, #434343);
+    text-decoration: none;
+    color: #FFF;
+}
+
+.usuarios:hover {
+    background: linear-gradient(to right, #000000, #434343);
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media(max-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    a {
+        padding: 13px;
+    }
+}
+
+@media(max-width: 426px) {
+    .menu {
+        display: grid;
+        grid-template-rows: 
+            var(--header-height)
+            var(--menu-top-height)
+            var(--header-height);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "inicio"
+            "cadastro"
+            "usuarios";
+    }
+
+    a {
+        padding: 13px;
+    }
+}
